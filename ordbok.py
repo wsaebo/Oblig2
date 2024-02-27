@@ -10,3 +10,4 @@ print("Ordbok med nye varer og pris", ordbok) #Printer ut ordboken med de to nye
 
 #Dette er kanskje ikke den mest elegante måten å løse oppgaven på, men den fungerer på et vis. 
 
+
