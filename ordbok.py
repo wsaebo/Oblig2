@@ -4,7 +4,7 @@ print ("Dette er ordboken med priser i ", ordbok)
 i = 0
 while i<=1: #While løkke for å legge inn to nye varer og pris 
     print ("Legg inn varenavn og pris, man må trykke enter etter at man har tastet inn varenavnet og derretter prisen" )
-    ordbok.update({input():input(float)}) #Bruker update metoden for å legge dette inn. 
+    ordbok.update({input():float(input())}) #Bruker update metoden for å legge dette inn. 
     i+=1 #Øker i med en slik at vi får riktig antall varer og pris 
 print("Ordbok med nye varer og pris", ordbok) #Printer ut ordboken med de to nye varene og prisen
 
