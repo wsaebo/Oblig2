@@ -21,10 +21,11 @@ def leggtilnybeboer():
             print ("Legg inn navn og måltider, du må taste enter mellom beboer og måltid")
             ordbok.update({input():input()})
             i+=1 #Øker i med1
-            print(ordbok)
+           
 
 
 def hentmaltid(): #Funksjonen hentmaltid 
+    
     print("Tast inn navn du vil finne måltidene til") #Ber brukeren taste inn navn 
     navn=input()
     for x in ordbok: #Lager en for-løkke for å traversere ordboka 
@@ -39,5 +40,5 @@ def hentmaltid(): #Funksjonen hentmaltid
 
 
 leggtilnybeboer()#Kaller proseydren    
-print(ordbok)
+
 hentmaltid() #kaller Prosedyren
